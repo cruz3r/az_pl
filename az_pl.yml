@@ -1,9 +1,0 @@
-name: string
-resources:
-  pipelines: [ pipelineResource ]
-  containers: [ containerResource ]
-  repositories: [ repositoryResource ]
-variables:
-trigger: trigger
-pr: pr
-stages: [ stage | templateReference]
